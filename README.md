@@ -101,7 +101,7 @@ python -m scripts.visualization.interpretability         # Figures 8-12, E1, F1
 
 ## What is in `results/`
 
-- `runs.csv`: one row per fine-tuning run in the post (1,109 runs): its configuration (dataset, base, rung, rate,
+- `runs.csv`: one row per fine-tuning run in the post (1,125 runs): its configuration (dataset, base, rung, rate,
   weight decay, schedule, noise, seed, LoRA settings) and metrics. `pass_floor` is the post's metric.
 - `curves.parquet`: validation loss and smoothed training loss at every evaluation, keyed by `(runs_dir, run)`.
 - `pretraining.csv`: pretraining curves of the two base models (Figure A1).
