@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.pytest_cache/
+
+# experiment outputs: data, tokenizer, checkpoints and runs live under $NANOCHAT_BASE_DIR (default ./data_and_checkpoints)
+data_and_checkpoints/
+wandb/
+report.md
+
+# generated figures (scripts/visualization/)
+figures/

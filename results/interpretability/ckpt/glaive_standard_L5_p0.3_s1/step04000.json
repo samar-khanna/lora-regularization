@@ -1,0 +1,7 @@
+{
+ "step": 4000,
+ "path": "lora_runs_ckpt/glaive_standard_L5_p0.3_s1/ckpt/adapters_04000.pt",
+ "val": 1.0234124561587212,
+ "top1": 0.7754316129819424,
+ "pre_kl": 0.921886034309864
+}

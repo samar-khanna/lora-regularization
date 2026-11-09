@@ -1,0 +1,8 @@
+{
+ "step": 3000,
+ "path": "lora_runs_ckpt/opencode_standard_L1_p0.3_s4/ckpt/adapters_03000.pt",
+ "noise": {
+  "L3": 0.20055256909547073,
+  "L5": 0.27816776046535724
+ }
+}

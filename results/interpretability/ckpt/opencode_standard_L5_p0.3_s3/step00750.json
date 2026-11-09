@@ -1,0 +1,7 @@
+{
+ "step": 750,
+ "path": "lora_runs_ckpt/opencode_standard_L5_p0.3_s3/ckpt/adapters_00750.pt",
+ "val": 0.5346680430367395,
+ "top1": 0.8641688850516823,
+ "pre_kl": 1.340333878993988
+}

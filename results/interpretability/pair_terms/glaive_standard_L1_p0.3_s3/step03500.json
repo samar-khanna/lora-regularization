@@ -1,0 +1,8 @@
+{
+ "step": 3500,
+ "path": "lora_runs_ckpt/glaive_standard_L1_p0.3_s3/ckpt/adapters_03500.pt",
+ "noise": {
+  "L3": 0.15503648587123636,
+  "L5": 0.1831949919902633
+ }
+}

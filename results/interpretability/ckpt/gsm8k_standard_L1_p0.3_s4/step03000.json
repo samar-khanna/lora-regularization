@@ -1,0 +1,7 @@
+{
+ "step": 3000,
+ "path": "lora_runs_ckpt/gsm8k_standard_L1_p0.3_s4/ckpt/adapters_03000.pt",
+ "val": 0.7670016884803772,
+ "top1": 0.806218874130465,
+ "pre_kl": 2.130313903093338
+}

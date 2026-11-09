@@ -1,0 +1,43 @@
+[project]
+name = "lora-regularization"
+version = "0.1.0"
+description = "The LoRA regularization ladder and Drop-LoRA-Path, on nanochat: code for 'How to Regularize your LoRA Training Better'"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+# The post's runs used Python 3.12 and torch 2.11.0+cu130 (CUDA 13.0) on an NVIDIA DGX Spark (GB10, aarch64).
+# Install the PyTorch build for your CUDA version first, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
+dependencies = [
+    "torch>=2.9",
+    "datasets>=4.0.0",
+    "kernels>=0.11.7",
+    "psutil>=7.1.0",
+    "rustbpe>=0.1.0",
+    "tiktoken>=0.11.0",
+    "tokenizers>=0.22.0",
+    "wandb>=0.21.3",
+    "pyarrow",
+    "numpy",
+    "pandas>=2.0",
+    "scipy",
+    "matplotlib>=3.8",
+    "pillow",
+    "requests",
+    "filelock",
+    "pyyaml",
+    "jinja2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nanochat*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

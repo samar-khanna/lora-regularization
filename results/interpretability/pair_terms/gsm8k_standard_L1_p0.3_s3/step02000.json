@@ -1,0 +1,8 @@
+{
+ "step": 2000,
+ "path": "lora_runs_ckpt/gsm8k_standard_L1_p0.3_s3/ckpt/adapters_02000.pt",
+ "noise": {
+  "L3": 0.13144925306943128,
+  "L5": 0.17829981074991447
+ }
+}
